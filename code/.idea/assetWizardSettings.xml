@@ -78,8 +78,8 @@
                                       <entry key="backgroundAssetType" value="COLOR" />
                                       <entry key="backgroundColor" value="ffffff" />
                                       <entry key="foregroundImage" value="C:\Users\Niloy\Downloads\drop.svg" />
-                                      <entry key="legacyIconShape" value="CIRCLE" />
-                                      <entry key="webIconShape" value="CIRCLE" />
+                                      <entry key="legacyIconShape" value="NONE" />
+                                      <entry key="webIconShape" value="NONE" />
                                     </map>
                                   </option>
                                 </PersistentState>

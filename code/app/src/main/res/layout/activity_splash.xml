@@ -13,8 +13,8 @@
         android:layout_height="match_parent"
         android:layout_marginLeft="100dp"
         android:layout_marginRight="100dp"
-        android:layout_marginBottom="450dp"
-        android:layout_marginTop="150dp"
+        android:layout_marginBottom="300dp"
+        android:layout_marginTop="300dp"
         app:srcCompat="@drawable/blood" />
 
     <TextView
