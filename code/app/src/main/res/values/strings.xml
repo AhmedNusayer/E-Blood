@@ -1,5 +1,27 @@
 <resources>
     <string name="app_name">E-Blood</string>
+    <string-array name="bloodGroup">
+        <item>A</item>
+        <item>B</item>
+        <item>AB</item>
+        <item>O</item>
+    </string-array>
+
+    <string-array name="rhFactor">
+        <item>+</item>
+        <item>-</item>
+    </string-array>
+
+
+    <string name="b1_text">Find Donors</string>
+    <string name="b2_text">Register as a Donor</string>
+    <string name="reg1_text">Name</string>
+    <string name="reg2_text">Blood Group</string>
+    <string name="reg3_text">District</string>
+    <string name="reg4_text">Location</string>
+    <string name="reg5_text">Phone No.</string>
+
+
     <string name="large_text">
         "Material is the metaphor.\n\n"
 

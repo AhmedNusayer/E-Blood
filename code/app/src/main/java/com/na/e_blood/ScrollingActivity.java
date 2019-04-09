@@ -17,6 +17,7 @@ public class ScrollingActivity extends AppCompatActivity implements View.OnClick
     CardView card_information;
     CardView card_setting;
     CardView card_about;
+    CardView card_register;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,6 +46,8 @@ public class ScrollingActivity extends AppCompatActivity implements View.OnClick
         card_setting.setOnClickListener(this);
         card_about = (CardView) findViewById(R.id.card_about);
         card_about.setOnClickListener(this);
+        card_register = (CardView) findViewById(R.id.card_register);
+        card_register.setOnClickListener(this);
     }
 
 
@@ -58,6 +61,9 @@ public class ScrollingActivity extends AppCompatActivity implements View.OnClick
             startActivity(intent);
         }else if(v.getId()== R.id.card_setting){
 
+        }else if(v.getId()== R.id.card_register){
+            Intent intent = new Intent(ScrollingActivity.this, Register.class);
+            startActivity(intent);
         }else if(v.getId()== R.id.card_about){
             Intent intent = new Intent(ScrollingActivity.this, AboutActivity.class);
             startActivity(intent);

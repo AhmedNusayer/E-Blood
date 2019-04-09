@@ -1,9 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SearchActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/txt_bloodGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:text="Blood Group"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="#FFFFFF"
+                android:textSize="30dp"/>
+
+            <Spinner
+                android:layout_below="@id/txt_bloodGroup"
+                android:id="@+id/spinner_bloodGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:entries="@array/bloodGroup"/>
+
+
+            <Spinner
+                android:layout_below="@id/spinner_bloodGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner_rhFactor"
+                android:layout_margin="10dp"
+                android:entries="@array/rhFactor">
+
+            </Spinner>
+
+        <TextView
+            android:id="@+id/txt_district"
+            android:layout_below="@id/spinner_rhFactor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            android:text="Location"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"/>
+
+        <Spinner
+            android:layout_below="@id/txt_district"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner_district"
+            android:layout_margin="10dp"
+            android:entries="@array/rhFactor">
+
+        </Spinner>
+
+        <Button
+            android:layout_below="@+id/txt_district"
+            android:id="@+id/search_blood"
+            android:layout_marginTop="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:padding="5dp"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+            android:text="Search"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>

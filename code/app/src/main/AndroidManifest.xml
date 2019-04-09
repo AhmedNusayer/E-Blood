@@ -23,6 +23,15 @@
             android:name=".InformationActivity"
             android:label="Information" />
         <activity
+            android:name=".Register"
+            android:label="Register" />
+        <activity
+            android:name=".AvailableDonors"
+            android:label="Available Donors" />
+        <activity
+            android:name=".Donors"
+            android:label="Donors" />
+        <activity
             android:name=".SplashActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>

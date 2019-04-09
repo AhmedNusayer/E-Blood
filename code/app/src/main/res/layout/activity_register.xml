@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Register">
+
+    <EditText
+        android:id="@+id/ETname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/reg1_text"
+        android:layout_marginTop="8dp"
+        android:textSize="15sp"/>
+    <EditText
+        android:id="@+id/ETbg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/reg2_text"
+        android:layout_marginTop="8dp"
+        android:textSize="15sp"/>
+    <EditText
+        android:id="@+id/ETlocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/reg3_text"
+        android:layout_marginTop="8dp"
+        android:textSize="15sp"/>
+    <EditText
+        android:id="@+id/ETdistrict"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/reg4_text"
+        android:layout_marginTop="8dp"
+        android:textSize="15sp"/>
+    <EditText
+        android:id="@+id/ETphoneNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/reg5_text"
+        android:layout_marginTop="8dp"
+        android:textSize="15sp"/>
+
+    <Button
+        android:id="@+id/BTregister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_marginBottom="10dp"/>
+
+</LinearLayout>
